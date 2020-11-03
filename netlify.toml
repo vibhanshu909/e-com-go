@@ -4,3 +4,7 @@
 [build.environment]
   # Change this path with the path to your repository
   GO_IMPORT_PATH = "github.com/vibhanshu909/e-com-go"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  
